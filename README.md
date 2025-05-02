@@ -55,19 +55,31 @@ py -3 -m venv venv
 .\venv\Scripts\Activate.ps1
 
 Install dependencies and clone YOLOv5:
+
 pip install torch torchvision pyyaml
+
 git clone https://github.com/ultralytics/yolov5.git
+
 cd yolov5
+
 pip install -r requirements.txt
+
 cd ..
+
 🚅 Training Commands
 Run from project root (with venv activated):
+
 # RGB experiment:
 python .\yolov5\train.py `
+
   --img 320 --batch 8 --epochs 10 `
+  
   --data data.yaml `
+  
   --weights yolov5s.pt `
+  
   --name rgb_experiment
+  
 
 # Event experiment
 //ADD HERE
