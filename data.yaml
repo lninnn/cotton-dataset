@@ -1,0 +1,5 @@
+names:
+- Boll
+nc: 1
+train: C:\Users\chand\Downloads\CV\train.txt
+val: C:\Users\chand\Downloads\CV\val.txt
