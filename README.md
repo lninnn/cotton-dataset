@@ -19,20 +19,20 @@ We fine‑tune on a cotton‑boll dataset captured from both modalities and eval
 ---
 
 ## 🗂 Dataset Structure
-
 project/
-├── obj.names ← class names
-├── obj.data ← metadata for train/val lists
-├── data.yaml ← YOLOv5 config
-├── obj_Train_data/ ← RGB images + .txt labels
-│ ├── frame_0001.png
-│ ├── frame_0001.txt
-│ └── …
-├── event_Train_data/ ← Event images + .txt labels
-│ ├── frame_0001.png
-│ ├── frame_0001.txt
-│ └── …
-└── yolov5/ ← Ultralytics YOLOv5 repo
+|-- obj.names             # class names
+|-- obj.data              # metadata for train/val lists
+|-- data.yaml             # YOLOv5 config
+|-- obj_Train_data/       # RGB images + .txt labels
+|   |-- frame_0001.png
+|   |-- frame_0001.txt
+|   |-- ...
+|-- event_Train_data/     # Event‑camera images + .txt labels
+|   |-- frame_0001.png
+|   |-- frame_0001.txt
+|   |-- ...
+|-- yolov5/               # Ultralytics YOLOv5 repo
+
 
 Setup & Installation
 Create & activate a Python venv (PowerShell):
