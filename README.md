@@ -51,6 +51,7 @@ project/
 
 Setup & Installation
 Create & activate a Python venv (PowerShell):
+
 py -3 -m venv venv
 .\venv\Scripts\Activate.ps1
 
