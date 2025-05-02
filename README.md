@@ -62,11 +62,6 @@ pip install -r requirements.txt
 cd ..
 🚅 Training Commands
 Run from project root (with venv activated):
-
-powershell
-Copy
-Edit
-
 # RGB experiment:
 python .\yolov5\train.py `
   --img 320 --batch 8 --epochs 10 `
