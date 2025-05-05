@@ -1,0 +1,5 @@
+names:
+- Boll
+nc: 1
+train: /app/train_event.txt
+val: /app/val_event.txt

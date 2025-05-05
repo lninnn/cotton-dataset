@@ -83,4 +83,14 @@ python .\yolov5\train.py `
   
 
 # Event experiment
-//ADD HERE
+python .\yolov5\train.py `
+
+  --img 320 --batch 4 --epochs 50 `
+  
+  --data data.yaml `
+  
+  --weights '' `
+
+  --cfg yolo5s.yaml `
+  
+  --name rgb_experiment
